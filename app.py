@@ -73,9 +73,7 @@ def fetch_recipes(predicted_category):
 st.title("Image-Based Recipe Recommender")
 st.write("Upload an image of a vegetable, and I'll suggest recipes for it!")
 
-# Load the model
-# path_to_model = '/home/unthinkable-lap/Desktop/d/model_inceptionV3_epoch3.pkl'
-# model = load_trained_model(path_to_model)
+
 
 import pickle
 
