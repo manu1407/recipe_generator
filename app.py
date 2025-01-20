@@ -79,7 +79,7 @@ st.write("Upload an image of a vegetable, and I'll suggest recipes for it!")
 
 import pickle
 
-with open('/home/unthinkable-lap/Desktop/d/model_inceptionV3_epoch3.pkl', 'rb') as file:
+with open('model_inceptionV3_epoch3.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
