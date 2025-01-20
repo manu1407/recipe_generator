@@ -51,7 +51,7 @@ def fetch_recipes(predicted_category):
 
 
     load_dotenv()
-    api_key = os.getenv("API_KEY")
+    api_key = "AIzaSyCNQAMZ6885ALBx7xxVdhkqbf1skuSNKiA"
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     headers = {"Content-Type": "application/json"}
